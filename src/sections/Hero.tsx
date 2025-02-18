@@ -65,3 +65,65 @@ export const Hero = () => {
   )
 
 }
+
+
+/*
+: Updated code from superflex:
+
+import Button from "@/helper/Button";
+import starsBg from '@/assets/stars.png'
+
+export const Hero = () => {
+  return (
+    <section className="h-[492px] md:h-[800px] flex items-center overflow-hidden relative" style={{backgroundImage:`url(${starsBg.src})`}}>
+      {/* Radial gradient from center to outward *
+      <div className="absolute inset-0 bg-[radial-gradient(circle, rgba(140,69,255,0.5) 0%, rgba(14,0,36,0.5) 70%, transparent 100%)]"></div>
+
+      {/* Circular rings 
+      <div className="absolute md:h-[580px] md:w-[580px] h-[344px] w-[344px] border rounded-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-20">
+        <div className="absolute h-2 w-2 top-1/2 left-0 bg-white rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute h-2 w-2 top-0 left-1/2 bg-white rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute h-5 w-5 top-1/2 left-full border border-white rounded-full -translate-x-1/2 -translate-y-1/2 inline-flex items-center justify-center">
+          <div className="h-2 w-2 bg-white rounded-full"></div>
+        </div>
+      </div>
+
+      <div className="absolute md:h-[780px] md:w-[780px] h-[444px] w-[444px] rounded-full border border-white/20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-dashed"></div>
+
+      <div className="absolute md:h-[980px] md:w-[980px] h-[544px] w-[544px] rounded-full border border-white opacity-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <div className="absolute h-2 w-2 top-1/2 left-0 bg-white rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+        <div className="absolute h-2 w-2 top-1/2 left-full bg-white rounded-full -translate-x-1/2 -translate-y-1/2"></div>
+      </div>
+
+      <div className="container relative mt-16">
+        <h1 className="text-8xl md:text-[168px] md:leading-none font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.8))] text-transparent bg-clip-text text-center">
+          AI SEO
+        </h1>
+
+        <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
+          Elevate your site&#39;s visibility effortlessly with AI, where smart technology meets user-friendly SEO tools.
+        </p>
+
+        <div className="flex justify-center mt-5">
+          <Button>Join Waitlist</Button>
+        </div>
+
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div>
+            <h3 className="text-2xl font-semibold text-white">Automated Insights</h3>
+            <p className="text-white/70 mt-2">Get real-time insights and analytics to boost your SEO strategy.</p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold text-white">User-Friendly Tools</h3>
+            <p className="text-white/70 mt-2">Access a suite of tools designed for ease of use and efficiency.</p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold text-white">24/7 Support</h3>
+            <p className="text-white/70 mt-2">Our team is here to help you around the clock.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+*/
