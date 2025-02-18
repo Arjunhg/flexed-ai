@@ -1,0 +1,16 @@
+graph TD
+    A[👤 User] -->|Authenticates| B[🔒 Privy Auth]
+    B -->|Grants Access| C[⚛️ React Frontend]
+    C -->|Sends Patient Data| D[🧠 Gemini AI]
+    D -->|Returns Treatment Plan| C
+    C -->|Stores/Retrieves Data| E[📁 Medical Records]
+    C -->|Displays| F[📊 Dashboard]
+    C -->|Deploys to| G[🚀 Netlify]
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style B fill:#bbf,stroke:#333,stroke-width:2px
+    style C fill:#bfb,stroke:#333,stroke-width:2px
+    style D fill:#fbf,stroke:#333,stroke-width:2px
+    style E fill:#fbb,stroke:#333,stroke-width:2px
+    style F fill:#bff,stroke:#333,stroke-width:2px
+    style G fill:#ffb,stroke:#333,stroke-width:2px
