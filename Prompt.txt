@@ -80,6 +80,6 @@
 
     : For call to action, that was my own doing as it was mostly made using acertinity, so nothing much to add on. I just asked superflex for the initial template.
 
-    : Now finallly for the navbar section it was just a simple prompt of making it responsive and adding a button with gradient effect with some links (static) and superflex did the job for me.
+    : Now finallly for the footer section it was just a simple prompt of making it responsive and adding a button with gradient effect with some links (static) and superflex did the job for me.
 
 --> And this was all about my journey with superflex

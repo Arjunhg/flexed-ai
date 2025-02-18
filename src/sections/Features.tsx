@@ -180,3 +180,68 @@ export const Features = () => {
     </section>
   )
 };
+
+
+/*
+Intial setup by superFlex
+'use client'
+import { useState } from 'react';
+import Image from 'next/image';
+import featureImage1 from '@/assets/feature1.png';
+import featureImage2 from '@/assets/feature2.png';
+import featureImage3 from '@/assets/feature3.png';
+
+const features = [
+  {
+    title: 'Automated Insights',
+    description: 'Get real-time insights and analytics to boost your SEO strategy.',
+    image: featureImage1,
+  },
+  {
+    title: 'User-Friendly Tools',
+    description: 'Access a suite of tools designed for ease of use and efficiency.',
+    image: featureImage2,
+  },
+  {
+    title: '24/7 Support',
+    description: 'Our team is here to help you around the clock.',
+    image: featureImage3,
+  },
+];
+
+export const Features = () => {
+  const [activeTab, setActiveTab] = useState(0);
+
+  return (
+    <section className="py-20 md:py-24">
+      <div className="container">
+        <h2 className="text-5xl md:text-6xl text-center tracking-tighter font-medium">Features</h2>
+        <p className="text-white/70 text-lg md:text-xl text-center mt-5 tracking-tight max-w-sm mx-auto">
+          Discover the powerful features that make our AI SEO tool stand out.
+        </p>
+
+        <div className="mt-10 flex justify-center">
+          <div className="flex gap-4">
+            {features.map((feature, index) => (
+              <button
+                key={index}
+                className={`px-4 py-2 rounded-lg ${activeTab === index ? 'bg-purple-600 text-white' : 'bg-white text-purple-600'}`}
+                onClick={() => setActiveTab(index)}
+              >
+                {feature.title}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-10 text-center">
+          <p className="text-xl text-white/70">{features[activeTab].description}</p>
+          <div className="mt-5">
+            <Image src={features[activeTab].image} alt={features[activeTab].title} className="mx-auto" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+*/
